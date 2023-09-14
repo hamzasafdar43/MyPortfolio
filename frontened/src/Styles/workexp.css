@@ -1,0 +1,18 @@
+.workexp hr{
+    color: gray;
+    width: 400px;
+    margin: 10 auto;
+}
+.workexp-background{
+    background-color: rgb(211, 211, 211);
+}
+
+.workexp-vertical .vertical-timeline-element-title{
+    color: rgb(226, 164, 225);
+}
+.workexp-vertical .vertical-timeline-element-subtitle{
+    color: rgb(70, 88, 88);
+}
+.workexp-vertical p{
+    color: rgb(70, 88, 88);
+}

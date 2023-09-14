@@ -1,0 +1,42 @@
+.sidebar-section{
+    display: flex;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 15%;
+    background-color: rgb(19, 19, 19);
+    position: fixed;
+ 
+}
+.sidebar-toggle{
+    height: 100vh;
+    width: 5%;
+    background-color: rgb(19, 19, 19);
+    position: fixed;
+    cursor: pointer;
+    
+}
+.sidebar-toggle-icon{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    cursor: pointer
+}
+
+.sidebar-toggle-icon p svg{
+    background-color: rgb(207, 215, 62);
+    color: white;
+    margin-top: 30px;
+}
+
+/* ================ MediaQuerry ============== */
+
+@media only screen and (max-width: 768px){
+    .sidebar-section .sidebar{
+        display: none;
+    }
+    .sidebar-section .sidebar-toggle{
+        display: none; 
+    }
+}

@@ -1,0 +1,38 @@
+
+.main-nav{
+    overflow: hidden;
+    position:fixed;
+    top: 0;
+    z-index: 1;
+    width:100% ;
+ 
+}
+
+.mobile-nav{
+ 
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: #fff;
+    padding: 10px;
+}
+
+/* .menu-icon-mobile-nav{
+    background-color: rgba(0, 0, 0, 0.705);
+    width: ;
+} */
+
+.mobile-nav-title{
+    margin-left: 20px;
+    color: rgb(207, 215, 62);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* ================= MediaQuerry =================== */
+
+@media only screen and (min-width: 768px){
+ .main-nav{
+    display: none;
+}
+}

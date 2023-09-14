@@ -1,0 +1,38 @@
+.navebar-img img{
+    height: 150px;
+    border-radius: 100%;
+    
+}
+.navebar-img{
+    display: flex;
+    justify-content: center;
+}
+
+.icons-sidebar-section{
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.nav-link a{
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.nav-link .heading:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(207, 215, 62);
+   
+    
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(207, 215, 62);
+    border-left: 5px solid rgb(207, 215, 62);
+    
+}
+
+

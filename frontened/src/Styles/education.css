@@ -1,0 +1,23 @@
+.education-section hr{
+    color: gray;
+    width: 200px;
+    margin: 10 auto;
+}
+.education{
+    background-color: rgb(211, 211, 211);
+}
+
+.eduction-all .vertical-timeline-element-title{
+    color: rgb(226, 164, 225);
+}
+.eduction-all .vertical-timeline-element-subtitle{
+    color: rgb(70, 88, 88);
+}
+.eduction-all p{
+    color: rgb(70, 88, 88);
+}
+.tech-heading1{
+padding-top: 50px;
+color: rgb(70, 88, 88);
+text-transform: uppercase;
+}
